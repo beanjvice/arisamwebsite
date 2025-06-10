@@ -9,3 +9,29 @@ body{
     font-family: "Playfair Display", serif;
 }
 
+.navbar{
+    background-color: #2b142c;
+    overflow: hidden;
+    font-style: normal;
+    position: sticky;
+    top: 0;
+    padding: 12px;
+    z-index: 1000;
+}
+
+.navbar a{
+    float: right;
+    color: #fbe4d8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover{
+    color: #854f6c;
+}
+
+.navbar a.active{
+    color: #854f6c;
+}
