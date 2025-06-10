@@ -120,6 +120,66 @@ p{
     margin-left: 8em;
 }
 
+.placeholder {
+    background-color: #dfb6b2;
+    width: 250px;
+    height: 65px;
+    padding: 50px;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 4em;
+    flex-shrink: 0;
+}
+
+.caption {
+    margin-left: 8px;
+}
+
+.project-title {
+    font-weight: 400;
+    font-size: 21px;
+    margin-left:1em;
+    margin-top: 1em;
+}
+
+.project-description {
+    margin-left: 20px;
+    margin-top: 2px; 
+    margin-right: 8em;
+    color: #9c799d;
+    line-height: normal;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.tech-bubbles { 
+    margin-left: 18px;
+    display: flex;
+    gap: 8px; 
+    flex-wrap: wrap; 
+}
+
+.bubble {
+    background-color: none; 
+    color: #dfb6b2; 
+    padding: 5px 12px;
+    border-radius: 20px; 
+    border-color:#dfb6b2;
+    border-style: solid;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-block; 
+}
+
 
 /* resume stuff */
 
