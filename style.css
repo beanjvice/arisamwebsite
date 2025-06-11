@@ -22,9 +22,10 @@ html{
     scroll-margin-top: 270px;
 }
 
+
 /* navbar */
 
-.navbar{
+.navbar {
     background-color: #2b142c;
     overflow: hidden;
     font-style: normal;
@@ -34,22 +35,24 @@ html{
     z-index: 1000;
 }
 
-.navbar a{
+  
+.navbar a {
     float: right;
     color: #fbe4d8;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-}
-
-.navbar a:hover{
+  }
+  
+.navbar a:hover {
     color: #854f6c;
-}
-
-.navbar a.active{
+  }
+  
+.navbar a.active {
     color: #854f6c;
-}
+  }
+
 
 #name{
     position:left;
@@ -62,10 +65,10 @@ html{
 /* text styles */
 
 h1{
-    font-style: bold;
+    font-style: bold; 
     font-size: 90px;
-    color: #fbe4d8;
-    line-height: 0.3 em;
+    color:#fbe4d8;
+    line-height: 0.3em;
 }
 
 h2{
@@ -93,9 +96,6 @@ p{
 .caption {
     margin-left: 8px;
 }
-
-
-
 
 /* welcome section */
 
@@ -129,10 +129,6 @@ p{
     margin-bottom: 1em;
     margin-left: 4em;
     flex-shrink: 0;
-}
-
-.caption {
-    margin-left: 8px;
 }
 
 .project-title {
@@ -180,8 +176,13 @@ p{
     display: inline-block; 
 }
 
-
-/* resume stuff */
+#name{
+    position:left;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 2em;
+    margin-top: 1.2em;
+}
 
 #resumebutton{
     background-color: none; 
@@ -199,11 +200,10 @@ p{
 
 }
 
-#resumebuttontitle{
+#resumetitle{
     font-size: 42px;
     font-weight: 400;
     text-align:center;
     margin-top: 2em; 
     
 }
-
