@@ -114,6 +114,34 @@ p{
     text-align: right;
 }
 
+
+
+.about-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 3em;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 800px;
+  line-height: 1.6em;
+}
+
+.about-text h2 {
+  margin: 0 0 0.5em 0;
+  color: #fbe4d8;
+}
+
+.about-text p {
+  color: #dfb6b2;
+  margin: 0;
+}
+
+
+
 /* project section */
 
 #projects {
@@ -184,21 +212,38 @@ p{
     margin-top: 1.2em;
 }
 
-#resumebutton{
-    background-color: none; 
+/* resume section */
+
+#resumebutton {
+    background-color: transparent; 
     color: #dfb6b2; 
     padding: 5px 12px;
     border-radius: 20px; 
-    border-color:#dfb6b2;
-    border-style: solid;
-    font-size: 14px;
+    border: 2px solid #dfb6b2;
+    font-size: 18px;
     font-weight: 500;
     display: inline-block; 
     width: 100px;
     height: 30px;
-    margin-left:550px;
-
+    margin-left: 550px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: .7em;
+    cursor: pointer;
 }
+
+#resumebutton:hover {
+    background-color: #dfb6b2;
+    color: #190019;
+    transition: 0.3s;
+}
+
+#resumebutton:active {
+    background-color: #854f6c;
+    color: #fbe4d8;
+    transition: 0.3s;
+}
+
 
 #resumetitle{
     font-size: 42px;
