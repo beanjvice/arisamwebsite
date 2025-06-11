@@ -133,6 +133,16 @@ p{
   margin: 0;
 }
 
+#me{
+    width: 300px;
+    height: 300px;
+    margin-right: 40px;
+    margin-left: 0;
+    border-radius: 5%;
+    border:#dfb6b2 5px solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 /* project section */
 #projects {
     margin-left: 8em;
