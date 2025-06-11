@@ -8,7 +8,6 @@ body{
 }
 
 /* scroll behaviors */
-
 html{
     scroll-behavior: smooth;
 }
@@ -24,7 +23,6 @@ html{
 
 
 /* navbar */
-
 .navbar {
     background-color: #2b142c;
     overflow: hidden;
@@ -63,7 +61,6 @@ html{
 }
 
 /* text styles */
-
 h1{
     font-style: bold; 
     font-size: 90px;
@@ -98,14 +95,12 @@ p{
 }
 
 /* welcome section */
-
 #welcome{
     margin-top:11em;
     margin-left:8em;
 }
 
 /* about section */
-
 #about{
     margin-top:270px;
     margin-left: 13em;
@@ -113,8 +108,6 @@ p{
     margin-bottom: 200px;
     text-align: right;
 }
-
-
 
 .about-wrapper {
   display: flex;
@@ -140,10 +133,7 @@ p{
   margin: 0;
 }
 
-
-
 /* project section */
-
 #projects {
     margin-left: 8em;
 }
@@ -213,7 +203,6 @@ p{
 }
 
 /* resume section */
-
 #resumebutton {
     background-color: transparent; 
     color: #dfb6b2; 
