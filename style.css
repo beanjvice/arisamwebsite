@@ -12,7 +12,7 @@ html{
     scroll-behavior: smooth;
 }
 
-#about, #projects, #contact {
+#about, #projects, #resume, #contact {
     position: relative;
     scroll-margin-top: 150px;
 }
