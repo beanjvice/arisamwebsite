@@ -211,46 +211,6 @@ p{
     margin-top: 1.2em;
 }
 
-/* resume section */
-#resumebutton {
-    background-color: transparent; 
-    color: #dfb6b2; 
-    padding: 5px 12px;
-    border-radius: 20px; 
-    border: 2px solid #dfb6b2;
-    font-size: 18px;
-    font-weight: 500;
-    display: inline-block; 
-    width: 100px;
-    height: 30px;
-    margin-left: 550px;
-    text-decoration: none;
-    text-align: center;
-    padding-top: .7em;
-    cursor: pointer;
-}
-
-#resumebutton:hover {
-    background-color: #dfb6b2;
-    color: #190019;
-    transition: 0.3s;
-}
-
-#resumebutton:active {
-    background-color: #854f6c;
-    color: #fbe4d8;
-    transition: 0.3s;
-}
-
-
-#resumetitle{
-    font-size: 42px;
-    font-weight: 400;
-    text-align:center;
-    margin-top: 2em; 
-    
-}
-
 /* contact section */
 
 #contact-title{
@@ -308,4 +268,51 @@ p{
     align-items: center;
     margin-bottom: 15px;
     gap: 10px;
+}
+
+/* resume section */
+
+#resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#resumebutton {
+    background-color: transparent; 
+    color: #dfb6b2; 
+    padding: 5px 12px;
+    border-radius: 20px; 
+    border: 2px solid #dfb6b2;
+    font-size: 18px;
+    font-weight: 500;
+    width: 500px;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: .7em;
+    margin-top: 1em;
+    
+}
+
+#resumebutton:hover {
+    background-color: #dfb6b2;
+    color: #190019;
+    transition: 0.3s;
+}
+
+#resumebutton:active {
+    background-color: #854f6c;
+    color: #fbe4d8;
+    transition: 0.3s;
+}
+
+
+#resumetitle{
+    font-size: 42px;
+    font-weight: 400;
+    text-align:center;
+    margin-top: 2em; 
+    
 }
