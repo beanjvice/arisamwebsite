@@ -222,7 +222,7 @@ p{
     width: 400px;
     height: 250px;
     background-color: #2b142c;
-    border: #dfb6b2 solid 2px;
+    border:none;
     border-radius: 7px;
     padding: 20px;
     margin-left: auto;
@@ -277,14 +277,15 @@ p{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 #resumebutton {
-    background-color: transparent; 
-    color: #dfb6b2; 
+    background-color: #dfb6b2;
+    color: #190019;
     padding: 5px 12px;
     border-radius: 20px; 
-    border: 2px solid #dfb6b2;
+    border: none;
     font-size: 18px;
     font-weight: 500;
     width: 500px;
@@ -297,8 +298,8 @@ p{
 }
 
 #resumebutton:hover {
-    background-color: #dfb6b2;
-    color: #190019;
+    background-color: #fbe4d8; 
+    color: #854f6c; 
     transition: 0.3s;
 }
 
