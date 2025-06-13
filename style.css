@@ -253,6 +253,59 @@ p{
 
 /* contact section */
 
-footer {
+#contact-title{
+    text-align:center;
+    margin-top: 2em; 
+}
+
+#contact-box{
+    width: 400px;
+    height: 250px;
+    background-color: #2b142c;
+    border: #dfb6b2 solid 2px;
+    border-radius: 7px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    width: 25px;
+    height: 25px;
+    margin-bottom:15px;
+}
+
+.contact-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:25px;
+}
+
+.contact-items a{
+    color: #dfb6b2;
     text-align: center;
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.contact-items a:hover {
+    color: #854f6c;
+    text-decoration: none;
+}
+
+.contact-items a:visited {
+    color: #dfb6b2;
+    text-decoration: none;
+}
+.contact-items a:active {
+    color: #9c799d;
+    text-decoration: none;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
 }
